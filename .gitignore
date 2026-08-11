@@ -1,0 +1,31 @@
+# 個資與原始語料 — 絕不追蹤
+users.json
+conversations.json
+memories.json
+conversation_labels.json
+retrieval_corpus.json
+*_annotation*.csv
+*_annotation*.txt
+frozen_corpus/
+segmented_corpus/
+parsed_conversations/
+projects/
+
+# 憑證
+.env
+*.key
+*.pem
+credentials*
+secrets*
+
+# 產出與快取
+embed_cache.json
+ablation_results.json
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 作業系統
+.DS_Store
+Thumbs.db
