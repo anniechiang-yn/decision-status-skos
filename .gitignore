@@ -1,4 +1,4 @@
-# 個資與原始語料 — 絕不追蹤
+# Personal data and source corpus — never track
 users.json
 conversations.json
 memories.json
@@ -11,14 +11,14 @@ segmented_corpus/
 parsed_conversations/
 projects/
 
-# 憑證
+# Credentials
 .env
 *.key
 *.pem
 credentials*
 secrets*
 
-# 產出與快取
+# Generated output and caches
 embed_cache.json
 ablation_results.json
 __pycache__/
@@ -26,6 +26,6 @@ __pycache__/
 .venv/
 venv/
 
-# 作業系統
+# Operating system
 .DS_Store
 Thumbs.db
