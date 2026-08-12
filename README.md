@@ -68,6 +68,7 @@ Section 9.6.4 is also checked: the semantic relation properties have `skos:Conce
 - No top concept also asserts `skos:broader`. Section 4.6.3 states that such a graph is consistent and that an application may reject it but is not required to.
 - No `skos:prefLabel` and no `skos:notation` is shared by two concepts. Section 6.5.3 records notation uniqueness as a convention.
 - Every concept has both a definition and a scope note. This is an editorial requirement of this vocabulary, not of SKOS.
+- Every member of an ordered collection is a concept. `skos:member` permits a collection as well, so nesting is valid SKOS; flat membership is an editorial requirement of this vocabulary.
 
 Both categories currently report zero failures.
 
@@ -88,7 +89,7 @@ Established alternatives for this task are qSKOS and Skosify. The checks here ar
 
 **The retrieval corpus is small.** Forty-seven semantic units were consolidated from 284 segments across ten conversations, within a segmentation of 1,014 segments over 66 conversations. Ranking the top five from a pool of this size is an easier task than retrieval over the full corpus, and the absolute figures should not be read as generalising to it. Concept frequencies are correspondingly uneven: Exploring 17, Informational 16, Abandoned 9, Decided 3, Implemented 1, Superseded 0, with one record unassigned.
 
-**The vocabulary does not model absence of assignment.** An unassigned record is a data quality state, not a decision state, and is handled by the application. One record of 47 in the source corpus is unassigned.
+**The vocabulary does not model absence of assignment.** An unassigned record is a data quality state, not a decision state, and is handled by the application.
 
 **Definitions and scope notes are English only.** Preferred labels are given in English and Traditional Chinese. Full bilingual documentation is outstanding.
 
