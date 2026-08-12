@@ -7,3 +7,4 @@ Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
 Human-readable summary: https://creativecommons.org/licenses/by/4.0/
 
 The licence applies to the vocabulary file, its documentation and the validation script contained in this repository.
+The validation script (validate_skos.py) is licensed under the MIT Licence.
