@@ -154,14 +154,16 @@ for c in sorted(concepts):
     if not set(g.objects(c, SKOS.scopeNote)):
         conv_fail.append(f"{short(c)} has no skos:scopeNote")
 
-# S36 entailment check: every item of a memberList is also a member.
+# Not a spec condition. skos:member permits a Collection as well as a
+# Concept, so a nested collection is valid SKOS. Restricting members to
+# concepts is an editorial requirement of this vocabulary.
 for coll in g.subjects(RDF.type, SKOS.OrderedCollection):
     for ml in g.objects(coll, SKOS.memberList):
         items = list(Collection(g, ml))
         print(f"ordered collection {short(coll)}: {[short(i) for i in items]}")
         for i in items:
             if i not in concepts:
-                spec_fail.append(f"S32 collection member {short(i)} is not a skos:Concept")
+                conv_fail.append(f"collection member {short(i)} is not a skos:Concept")
 
 print("\n--- hierarchy ---")
 for c in sorted(concepts):
