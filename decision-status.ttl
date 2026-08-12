@@ -14,13 +14,14 @@ ds:DecisionStatusScheme a skos:ConceptScheme ;
     dct:description "A controlled vocabulary describing the decision state of a conversational segment. Developed as the metadata layer of a retrieval-augmented generation experiment over a corpus of 1,014 segments drawn from 66 conversations, where the values were originally held as a free-string field."@en ;
     dct:creator "Annie Chiang" ;
     dct:created "2026-08-10"^^xsd:date ;
-    dct:modified "2026-08-10"^^xsd:date ;
+    dct:modified "2026-08-12"^^xsd:date ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:language "en", "zh-Hant" ;
     owl:versionInfo "1.0.1" ;
     skos:hasTopConcept ds:DecisionBearing , ds:Informational ;
     skos:note "The vocabulary does not define a concept for the absence of an assignment. A record whose status is empty is unassigned, which is a data quality state rather than a decision state, and is handled by the application rather than by this vocabulary. In the source corpus one record of 47 is unassigned."@en ;
-    skos:note "Two axes are represented. The first axis records whether a segment carries decision intent at all, and is expressed by the two top concepts. The second axis records the stage a decision has reached, and is expressed by the five narrower concepts of ds:DecisionBearing."@en ;dcterms:identifier <https://doi.org/10.5281/zenodo.21899592> .
+    skos:note "Two axes are represented. The first axis records whether a segment carries decision intent at all, and is expressed by the two top concepts. The second axis records the stage a decision has reached, and is expressed by the five narrower concepts of ds:DecisionBearing."@en ;
+    dct:identifier <https://doi.org/10.5281/zenodo.21899592> .
     
 
 #################################################################
