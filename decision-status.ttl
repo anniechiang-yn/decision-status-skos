@@ -11,7 +11,7 @@
 ds:DecisionStatusScheme a skos:ConceptScheme ;
     dct:title "Decision Status Vocabulary"@en ;
     dct:title "決策狀態受控詞彙"@zh-Hant ;
-    dct:description "A controlled vocabulary describing the decision state of a conversational segment. Developed as the metadata layer of a retrieval-augmented generation experiment over a corpus of 1,014 segments drawn from 66 conversations, where the values were originally held as a free-string field."@en ;
+    dct:description "A controlled vocabulary describing the decision state of a conversational segment. Developed as the metadata layer of a retrieval-augmented generation experiment, where the values were originally held as a free-string field. The retrieval corpus comprises 47 semantic units, formed by consolidating 284 segments from ten conversations selected for the proof of concept, within a segmentation of 1,014 segments over 66 conversations."@en ;
     dct:creator "Annie Chiang" ;
     dct:created "2026-08-10"^^xsd:date ;
     dct:modified "2026-08-12"^^xsd:date ;
