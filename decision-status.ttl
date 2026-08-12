@@ -112,7 +112,7 @@ ds:Superseded a skos:Concept ;
     skos:scopeNote "Assignment is retrospective and depends on evidence outside the segment being described: a replacing decision must be identifiable elsewhere in the corpus. A segment therefore acquires this concept at annotation time rather than at the time it was written, and its status may change as the corpus grows. Where the replacing decision cannot be identified, assign ds:Abandoned."@en ;
     skos:editorialNote "The relation to the replacing decision is not expressible in SKOS, which has no vocabulary for stating that one resource replaces another instance-to-instance. In this scheme it is carried in the scope note only. Formalisation is deferred to the OWL layer, where the replacement relation and the two time axes it depends on can be modelled directly."@en ;
     skos:example "A segment selecting one tooling option, where a later segment adopts a different tool for the same purpose."@en ;
-    skos:historyNote "As of version 1.0 no record in the source corpus carries this concept. It is retained because the state it describes is well defined and expected to occur as the corpus grows, but any claim that the vocabulary is evidenced by use should exclude it."@en ;
+    skos:historyNote "As of the initial release no record in the source corpus carries this concept. It is retained because the state it describes is well defined and expected to occur as the corpus grows, but any claim that the vocabulary is evidenced by use should exclude it."@en ;
     skos:broader ds:DecisionBearing ;
     skos:inScheme ds:DecisionStatusScheme .
 
