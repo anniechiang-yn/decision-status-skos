@@ -3,7 +3,7 @@
 
 A W3C SKOS controlled vocabulary describing the decision state of a conversational segment.
 
-The vocabulary formalises the `decision_status` field of a retrieval-augmented generation experiment. Adding the full metadata layer to the retrieval index improved Precision@5 by 40% and Recall@5 by 61% against a baseline without metadata, over a test set of 10 questions with 28 relevance judgements, over a retrieval corpus of 47 semantic units consolidated from 284 segments across ten conversations.
+The vocabulary formalises the `decision_status` field of a retrieval-augmented generation experiment. Adding the full metadata layer to the retrieval index improved Precision@5 by 40% and Recall@5 by 61% against a baseline without metadata, over a test set of 10 questions with 28 relevance judgements, against a retrieval corpus of 47 semantic units consolidated from 284 segments across ten conversations.
 
 ## What this vocabulary is for
 
