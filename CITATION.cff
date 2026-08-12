@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this vocabulary, please cite it as below."
+title: "Decision Status: A SKOS Controlled Vocabulary"
+abstract: "A W3C SKOS controlled vocabulary of seven concepts describing the decision status of records, published with a conformance validation script."
+authors:
+  - family-names: Chiang
+    given-names: Annie
+type: dataset
+version: 1.0.0
+date-released: "2026-08-12"
+license: CC-BY-4.0
+repository-code: "https://github.com/anniechiang-yn/decision-status-skos"
+keywords:
+  - SKOS
+  - controlled vocabulary
+  - knowledge organization systems
+  - metadata
+  - RDF
