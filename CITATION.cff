@@ -6,7 +6,8 @@ authors:
   - family-names: Chiang
     given-names: Annie
 type: dataset
-version: 1.0.0
+version: 1.0.1
+doi: 10.5281/zenodo.21899592
 date-released: "2026-08-12"
 license: CC-BY-4.0
 repository-code: "https://github.com/anniechiang-yn/decision-status-skos"
