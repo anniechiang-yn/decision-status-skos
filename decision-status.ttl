@@ -17,10 +17,11 @@ ds:DecisionStatusScheme a skos:ConceptScheme ;
     dct:modified "2026-08-10"^^xsd:date ;
     dct:license <https://creativecommons.org/licenses/by/4.0/> ;
     dct:language "en", "zh-Hant" ;
-    owl:versionInfo "1.0.0" ;
+    owl:versionInfo "1.0.1" ;
     skos:hasTopConcept ds:DecisionBearing , ds:Informational ;
     skos:note "The vocabulary does not define a concept for the absence of an assignment. A record whose status is empty is unassigned, which is a data quality state rather than a decision state, and is handled by the application rather than by this vocabulary. In the source corpus one record of 47 is unassigned."@en ;
-    skos:note "Two axes are represented. The first axis records whether a segment carries decision intent at all, and is expressed by the two top concepts. The second axis records the stage a decision has reached, and is expressed by the five narrower concepts of ds:DecisionBearing."@en .
+    skos:note "Two axes are represented. The first axis records whether a segment carries decision intent at all, and is expressed by the two top concepts. The second axis records the stage a decision has reached, and is expressed by the five narrower concepts of ds:DecisionBearing."@en ;dcterms:identifier <https://doi.org/10.5281/zenodo.21899592> .
+    
 
 #################################################################
 # Top Concepts
