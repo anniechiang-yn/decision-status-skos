@@ -1,5 +1,5 @@
 # Decision Status Vocabulary (SKOS)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21899592.svg)](https://doi.org/10.5281/zenodo.21899592)
 A W3C SKOS controlled vocabulary describing the decision state of a conversational segment.
 
 The vocabulary formalises the `decision_status` field of a retrieval-augmented generation experiment. Adding the full metadata layer to the retrieval index improved Precision@5 by 40% and Recall@5 by 61% against a baseline without metadata, over a test set of 10 questions with 28 relevance judgements.
