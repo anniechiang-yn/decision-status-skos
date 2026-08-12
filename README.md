@@ -3,7 +3,7 @@
 
 A W3C SKOS controlled vocabulary describing the decision state of a conversational segment.
 
-The vocabulary formalises the `decision_status` field of a retrieval-augmented generation experiment. Adding the full metadata layer to the retrieval index improved Precision@5 by 40% and Recall@5 by 61% against a baseline without metadata, over a test set of 10 questions with 28 relevance judgements.
+The vocabulary formalises the `decision_status` field of a retrieval-augmented generation experiment. Adding the full metadata layer to the retrieval index improved Precision@5 by 40% and Recall@5 by 61% against a baseline without metadata, over a test set of 10 questions with 28 relevance judgements, over a retrieval corpus of 47 semantic units consolidated from 284 segments across ten conversations.
 
 ## What this vocabulary is for
 
@@ -85,6 +85,8 @@ Established alternatives for this task are qSKOS and Skosify. The checks here ar
 **Permitted transitions are not constrained.** Nothing in the vocabulary prevents a segment moving from Implemented back to Exploring. SKOS has no mechanism for stating such constraints.
 
 **One concept has no attested use.** No record in the source corpus carries `Superseded`. The concept is retained and flagged with a history note, but the vocabulary should not be described as fully evidenced by use.
+
+**The retrieval corpus is small.** Forty-seven semantic units were consolidated from 284 segments across ten conversations, within a segmentation of 1,014 segments over 66 conversations. Ranking the top five from a pool of this size is an easier task than retrieval over the full corpus, and the absolute figures should not be read as generalising to it. Concept frequencies are correspondingly uneven: Exploring 17, Informational 16, Abandoned 9, Decided 3, Implemented 1, Superseded 0, with one record unassigned.
 
 **The vocabulary does not model absence of assignment.** An unassigned record is a data quality state, not a decision state, and is handled by the application. One record of 47 in the source corpus is unassigned.
 
